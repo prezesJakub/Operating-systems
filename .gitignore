@@ -1,0 +1,29 @@
+
+*
+!/**/
+!*.*
+!Makefile
+
+# Ignorowanie plików binarnych
+**/*.exe
+**/*.out
+**/*.o
+**/*.a
+**/*.so
+**/*.dll
+**/*.bin
+
+# Ignorowanie innych plików systemowych
+*.log
+*.tmp
+
+# Ignorowanie plików kompilacji
+*.d
+*.out
+
+
+# Ignorowanie katalogów build
+build/
+bin/
+
+**/.vscode
